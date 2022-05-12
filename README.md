@@ -5,7 +5,7 @@
 
 
 # **VISION: A Fully Object Oriented Whatsapp Bot**
-
+[![Build Testing 🚀](https://github.com/doruk-backups01/vision/actions/workflows/build.yml/badge.svg)](https://github.com/doruk-backups01/vision/actions/workflows/build.yml)
 > A Fully Modular and Whatsapp Efficient Bot <br>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/doruk-backups01/vision)
