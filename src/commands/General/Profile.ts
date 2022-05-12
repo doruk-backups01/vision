@@ -40,6 +40,7 @@ export default class Command extends BaseCommand {
       pfp = "https://telegra.ph/file/de72ea1903c646b4d4935.jpg";
     }
     const exp = (await this.client.getUser(user)).Xp;
+    let role
     if (exp < 500) {
             role = '🌸 Citizen'
         } else if (exp < 1000) {
