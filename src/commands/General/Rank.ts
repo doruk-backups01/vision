@@ -111,39 +111,39 @@ export default class Command extends BaseCommand {
         } else {
             level = 'TIER 0'
         }
-    let level: string;
+    let required: string;
         if (exp < 500) {
-            level = '500'
+            required = '500'
         } else if (exp < 1000) {
-            level = '1000'
+            required = '1000'
         } else if (exp < 2000) {
-            level = '2000'
+            required = '2000'
         } else if (exp < 5000) {
-            level = '5000'
+            required = '5000'
         } else if (exp < 10000) {
-            level = '10000'
+            required = '10000'
         } else if (exp < 25000) {
-            level = '25000'
+            required = '25000'
         } else if (exp < 50000) {
-            level = '50000'
+            required = '50000'
         } else if (exp < 75000) {
-            level = '75000'
+            required = '75000'
         } else if (exp < 100000) {
-            level = '100000'
+            required = '100000'
         } else if (exp < 300000) {
-            level = '300000'
+            required = '300000'
         } else if (exp < 600000) {
-            level = '600000'
+            required = '600000'
         } else if (exp < 900000) {
-            level = '900000'
+            required = '900000'
         } else if (exp < 1436780) {
-            level = '1436780'
+            required = '1436780'
         } else if (exp < 2358900) {
-            level = '2358900'
+            required = '2358900'
         } else if (exp < 5000000) {
-            level = '5000000'
+            required = '5000000'
         } else if (exp < 9999999) {
-            level = '9999999'
+            required = '9999999'
         } else {
             required = '👑 REGAL'
         }
